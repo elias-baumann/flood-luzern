@@ -126,6 +126,21 @@ function draw() {
     70,
     0.75 * windowHeight
   );
+  textFont(shareBld);
+  text("Legende", 70, 0.75 * windowHeight + 45);
+  fill("#42519A");
+  ellipse(78, 0.75 * windowHeight + 72, 1.5 * cellsize, 1.5 * cellsize);
+  fill(113, 161, 215, 70);
+
+  ellipse(78, 0.75 * windowHeight + 102, 1.5 * cellsize, 1.5 * cellsize);
+  textFont(shareItc);
+  fill(0);
+  text("Wasser", 95, 0.75 * windowHeight + 80);
+  text(
+    "Wasser, wenn es noch um 2m weiter steigen würde",
+    95,
+    0.75 * windowHeight + 110
+  );
 }
 
 function updateWaterLevel() {
